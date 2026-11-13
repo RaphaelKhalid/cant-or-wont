@@ -1,0 +1,53 @@
+{
+  "note": "post hoc, not pre-registered; a text model trained the same way as the ridge probe",
+  "arms": {
+    "tfidf_words_written": {
+      "gamma": 0.20562473740607262,
+      "interval95": [
+        -0.043484018725350695,
+        0.44924760962615773
+      ],
+      "cell_means": {
+        "on_fail": 1.6848369980552702,
+        "on_fixed": 1.2457144903823363,
+        "off_fail": 0.7069141484205154,
+        "off_fixed": 0.5726371803866932
+      },
+      "adjusted_auroc": 0.581998338673312,
+      "adjusted_catch": 0.06918238993710692,
+      "off_fail_flagged": 1
+    },
+    "tfidf_chars_written": {
+      "gamma": 0.2085665617467854,
+      "interval95": [
+        0.031877707551354106,
+        0.3908721952711536
+      ],
+      "cell_means": {
+        "on_fail": 1.2747394467420678,
+        "on_fixed": 0.9200351196847805,
+        "off_fail": 0.10725226661057508,
+        "off_fixed": 0.024761095750489865
+      },
+      "adjusted_auroc": 0.6193781891539101,
+      "adjusted_catch": 0.006289308176100629,
+      "off_fail_flagged": 3
+    },
+    "tfidf_words_prompt_and_written": {
+      "gamma": 0.23960131829127138,
+      "interval95": [
+        0.059370445725936964,
+        0.4179042836871905
+      ],
+      "cell_means": {
+        "on_fail": 1.4534576998407995,
+        "on_fixed": 1.0370882381714859,
+        "off_fail": -0.03826975891027747,
+        "off_fixed": -0.04536803712383014
+      },
+      "adjusted_auroc": 0.6425180965942803,
+      "adjusted_catch": 0.050314465408805034,
+      "off_fail_flagged": 0
+    }
+  }
+}
