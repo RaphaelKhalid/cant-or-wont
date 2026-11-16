@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+type: software
+title: "A linear probe can tell won't from can't"
+authors:
+  - family-names: Khalid
+    given-names: Raphael
+    affiliation: "Andar Control"
+repository-code: "https://github.com/RaphaelKhalid/cant-or-wont"
+url: "https://andarcontrol.org/cant-or-wont"
+license: MIT
+date-released: 2026-11-16

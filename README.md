@@ -56,6 +56,8 @@ These read the saved data and call no model. `haiku_rival.py --run` calls the An
 | `data/activations_layer18.npz` | The model's activations at layer 18, averaged over the tokens it wrote |
 | `data/t_calls.jsonl`, `data/haiku_calls.jsonl` | Raw answers from the two text monitors |
 | `results/` | Outputs of the commands above |
+| `LICENSE`, `LICENSE-DATA.md` | MIT for code. CC BY 4.0 for data, results and text |
+| `CITATION.cff` | How to cite this repository |
 
 ## Notes on the data
 
